@@ -1,14 +1,18 @@
 <div class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card shadow rounded">
-                <div class="card-body text-center">
-                    <h1 class="card-title">Welcome to NomadLink</h1>
-                    <p class="card-text"> Discover, plan, and organize your favorite destinations as a digital nomad.
-                    </p>
-                    <a [routerLink]='["/destinations"]' class="btn btn-primary">Explore destinations</a>
-                </div>
-            </div>
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+            <h1 class="display-4 fw-bold mb-3">🌍 Welcome to NomadLink</h1>
+            <p class="lead mb-4">
+                Find the best remote-friendly cities, coworking spots, and communities to live your best digital nomad
+                life.
+            </p>
+            <a [routerLink]="['/destinations']" class="btn btn-primary btn-lg ">
+                🔎 Explore Destinations
+            </a>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="https://images.pexels.com/photos/4050428/pexels-photo-4050428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400"
+                alt="Remote Work" class="img-fluid rounded shadow" />
         </div>
     </div>
 </div>
